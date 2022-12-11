@@ -1,0 +1,16 @@
+@import '../../styles/App.module.scss';
+
+.switch {
+  border-radius: 100px;
+  border: $border;
+  background: $gradient;
+  cursor: pointer;
+  height: $height;
+  width: 140px;
+  box-shadow: inset 65px 0 0 $color-switch, inset 0 0 0 0 $color-switch;
+}
+.img{
+  content: url("../../img/light.svg");
+  margin: 10px 10px;
+  height: 50px;
+}

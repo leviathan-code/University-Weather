@@ -1,0 +1,51 @@
+@import '../../styles/App.module.scss';
+
+.body {
+  position: relative;
+  width: 260px;
+  height: 55px;
+  display: block;
+}
+
+.slider {
+  border-radius: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1E1E1E;
+  border: $border;
+}
+.Forecast {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(93.16deg, #31DAFF 0%, #E231FF 97.43%);;
+  border-radius: 100px;
+
+}
+.Air_quality {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  left: 75%;
+  top:80%;
+  color:$white;
+  font-size: 18px;
+  display: block;
+  float: left;
+
+}
+.text {
+  position: absolute;
+  top:30%;
+  left: 10%;
+  color:$white;
+  font-size: 18px;
+}

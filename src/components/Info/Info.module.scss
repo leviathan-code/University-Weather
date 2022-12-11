@@ -1,0 +1,73 @@
+@import '../../styles/App.module.scss';
+
+.body {
+  width: 1160px;
+  height: 700px;
+  margin-right: 90px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.list {
+  font-weight: 400;
+  font-size: 30px;
+  height: 55px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 580px;
+  font-style: normal;
+  align-items: end;
+  gap: 1.3rem;
+  list-style-type: none;
+  line-height: 68px;
+}
+.listLi {
+  color: $white;
+  cursor: pointer;
+  display: block;
+  opacity: .2;
+    
+}
+.active{
+  color: $white;
+  cursor: pointer;
+  display: block;
+  opacity: 2;
+}
+.days {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.map_body {
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.map_btn {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 25px;
+  color: $white;
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  border: $border;
+  border-radius: 100px;
+  background: #1E1E1E;
+}
+.map{
+  width: 100%;
+  height: 500px;
+  background: #1E1E1E;
+  border-radius: $border;
+}
+
+

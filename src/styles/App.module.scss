@@ -1,0 +1,86 @@
+@import './index';
+
+$font: 'Montserrat', sans-serif;
+$white: #fff;
+$black: #000;
+$border-r: 45px;
+$border: 1px solid #4a494a;
+$card: 24px; 
+$main-background: #101014;
+$height: 70px;
+$color-switch: #1E1E1E;
+$gradient: linear-gradient(93.16deg, #31DAFF 0%, #E231FF 97.43%);
+
+
+.App {
+  position: relative;
+  margin: 0 auto;
+  width: 1620px;
+}
+input {
+  outline:none;
+  border: none;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+body {
+  font-family: $font;
+  background: $main-background;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47px;
+  margin-bottom: 70px;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.city {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: $white;
+
+}
+.search input {
+  border-radius: 100px;
+  width: 516px;
+  height: $height;
+  padding-left: 20px;
+  margin-right: 40px;
+  font-size: 24px;
+  background: linear-gradient(180deg, #1B1A1D 29.95%, #3B3A3E 150.81%);
+  border: $border;
+  color: $white;
+}
+.icon_search {
+  left: 1080px;
+  cursor: pointer;
+  width: 50px;
+  height: $height;
+  position: absolute;
+
+  & svg {
+    margin:23px auto;
+    display: block;
+  }
+}
+.avatar {
+  width: 70px;
+  height: $height;
+  cursor: pointer;
+  background-image: url("../img/avatar.png");
+}
